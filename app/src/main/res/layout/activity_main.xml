@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_blue_light">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/col_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:drawable/editbox_background"
+                        android:gravity="center"
+                        android:text="@string/column_1"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black" />
+
+                    <EditText
+                        android:id="@+id/col_1ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_dropdown_light_frame"
+                        android:ems="10"
+                        android:gravity="fill_vertical"
+                        android:inputType="text"
+                        android:textAlignment="center"
+                        android:textSize="12sp"
+                        android:visibility="visible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/col_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:drawable/editbox_background_normal"
+                        android:gravity="center"
+                        android:text="@string/column_2"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black" />
+
+                    <EditText
+                        android:id="@+id/col_2ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_dropdown_light_frame"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textAlignment="center"
+                        android:textSize="12sp"
+                        android:visibility="visible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/col_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:drawable/editbox_background"
+                        android:gravity="center"
+                        android:text="@string/column_3"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black" />
+
+                    <EditText
+                        android:id="@+id/col_3ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_dropdown_light_frame"
+                        android:ems="15"
+                        android:inputType="text"
+                        android:textAlignment="center"
+                        android:textSize="12sp"
+                        android:visibility="visible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/col_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:autoText="false"
+                        android:background="@android:drawable/editbox_background"
+                        android:text="@string/column_4"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        tools:ignore="TextViewEdits" />
+
+                    <EditText
+                        android:id="@+id/col_4ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_dropdown_light_frame"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textAlignment="center"
+                        android:textSize="12sp"
+                        android:visibility="visible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/col_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:drawable/editbox_background"
+                        android:text="@string/column_5"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black" />
+
+                    <EditText
+                        android:id="@+id/col_5ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_dropdown_light_frame"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textAlignment="center"
+                        android:textSize="12sp"
+                        android:visibility="visible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/col_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:drawable/editbox_background"
+                        android:text="@string/column_6"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black" />
+
+                    <EditText
+                        android:id="@+id/col_6ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_dropdown_light_frame"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textAlignment="center"
+                        android:textSize="12sp"
+                        android:visibility="visible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/col_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:drawable/editbox_background"
+                        android:text="@string/column_7"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black" />
+
+                    <EditText
+                        android:id="@+id/col_7ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_dropdown_light_frame"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textAlignment="center"
+                        android:textSize="12sp"
+                        android:visibility="visible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/col_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:drawable/editbox_background"
+                        android:text="@string/column_8"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black" />
+
+                    <EditText
+                        android:id="@+id/col_8ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_dropdown_light_frame"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textAlignment="center"
+                        android:textSize="12sp"
+                        android:visibility="visible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/col_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:drawable/editbox_background"
+                        android:text="@string/column_9"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black" />
+
+                    <EditText
+                        android:id="@+id/col_9ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_dropdown_light_frame"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textAlignment="center"
+                        android:textSize="12sp"
+                        android:visibility="visible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/col_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:drawable/editbox_background"
+                        android:text="@string/column_10"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black" />
+
+                    <EditText
+                        android:id="@+id/col_10ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_dropdown_light_frame"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textAlignment="center"
+                        android:textSize="12sp"
+                        android:visibility="visible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/col_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:drawable/editbox_background"
+                        android:text="@string/column_11"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black" />
+
+                    <EditText
+                        android:id="@+id/col_11ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_dropdown_light_frame"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textAlignment="center"
+                        android:textSize="12sp"
+                        android:visibility="visible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/col_12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:drawable/editbox_background"
+                        android:text="@string/column_12"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black" />
+
+                    <EditText
+                        android:id="@+id/col_12ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_dropdown_light_frame"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textAlignment="center"
+                        android:textSize="12sp"
+                        android:visibility="visible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/col_13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:drawable/editbox_background"
+                        android:text="@string/column_13"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black" />
+
+                    <EditText
+                        android:id="@+id/col_13ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_dropdown_light_frame"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textAlignment="center"
+                        android:textSize="12sp"
+                        android:visibility="visible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/col_14"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:drawable/editbox_background"
+                        android:text="@string/column_14"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black" />
+
+                    <EditText
+                        android:id="@+id/col_14ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_dropdown_light_frame"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textAlignment="center"
+                        android:textSize="12sp"
+                        android:visibility="visible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/col_15"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:drawable/editbox_background"
+                        android:text="@string/column_15"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black" />
+
+                    <EditText
+                        android:id="@+id/col_15ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_dropdown_light_frame"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textAlignment="center"
+                        android:textSize="12sp"
+                        android:visibility="visible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/col_16"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:drawable/editbox_background"
+                        android:text="@string/column_16"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black" />
+
+                    <EditText
+                        android:id="@+id/col_16ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_dropdown_light_frame"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textAlignment="center"
+                        android:textSize="12sp"
+                        android:visibility="visible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/col_17"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:drawable/editbox_background"
+                        android:text="@string/column_17"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black" />
+
+                    <EditText
+                        android:id="@+id/col_17ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_dropdown_light_frame"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textAlignment="center"
+                        android:textSize="12sp"
+                        android:visibility="visible" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/col_18"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:drawable/editbox_background"
+                        android:text="@string/column_18"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black" />
+
+                    <EditText
+                        android:id="@+id/col_18ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_dropdown_light_frame"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textAlignment="center"
+                        android:textSize="12sp"
+                        android:visibility="visible" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/col_19"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@android:drawable/editbox_background"
+                        android:text="@string/column_19"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black" />
+
+                    <EditText
+                        android:id="@+id/col_19ET"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:drawable/editbox_dropdown_light_frame"
+                        android:ems="10"
+                        android:inputType="text"
+                        android:textAlignment="center"
+                        android:textSize="12sp"
+                        android:visibility="visible" />
+
+                    <Button
+                        android:id="@+id/btnDel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="@android:color/holo_blue_dark"
+                        android:text="@string/button_delete" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <Button
+                android:id="@+id/btnFind"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_blue_dark"
+                android:text="@string/button_read" />
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_blue_dark"
+                android:gravity="center_vertical|center_horizontal|center"
+                android:text="@string/button_add" />
+
+            <Button
+                android:id="@+id/btnClear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_blue_dark"
+                android:text="@string/button_clear" />
+
+            <Button
+                android:id="@+id/btnUpd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@android:color/holo_blue_dark"
+                android:text="@string/button_update" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

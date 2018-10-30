@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">DBSQLiteVIBRO</string>
+    <string name="text_1">Подразделение</string>
+    <string name="column_1">Подразделение</string>
+    <string name="column_2">Участок</string>
+    <string name="column_3">Агрегат</string>
+    <string name="column_4">Частота \n вращения \n ротора \n электродвигателя</string>
+    <string name="column_5">Частота \n вращения \n рабочего \n колеса</string>
+    <string name="column_6">Количество \n подшипников</string>
+    <string name="column_7">Количество \n муфт</string>
+    <string name="column_8">Тип \n муфты</string>
+    <string name="column_9">Число \n лопастей \n рабочего \n колеса</string>
+    <string name="column_10">Число \n зубьев \n тихоходного \n вала</string>
+    <string name="column_11">Число \n зубьев \n быстроходного \n вала</string>
+    <string name="column_12">Число \n пазов \n статора</string>
+    <string name="column_13">Число \n пазов \n ротора</string>
+    <string name="column_14">Число \n щеток \n коллектора</string>
+    <string name="column_15">Число \n зубьев \n муфты</string>
+    <string name="column_16">Высота \n оси \n вращения \n ротора</string>
+    <string name="column_17">Высота \n оси \n вращения \n редуктора</string>
+    <string name="column_18">Высота \n оси \n вращения \n рабочего \n колеса</string>
+    <string name="button_add">ЗАПИСАТЬ В БД</string>
+    <string name="button_read">ПОИСК В БД</string>
+    <string name="button_clear">ОЧИСТИТЬ БД</string>
+    <string name="button_update">ОБНОВИТЬ БД</string>
+    <string name="button_delete">УДАЛИТЬ \n ИЗ БД</string>
+    <string name="column_19">Индекс \n агрегата</string>
+    <string name="hint_text_find">Поиск</string>
+    <string name="radioBtn_1">Поиск по подразделению</string>
+    <string name="radioBtn_2">Поиск по участку</string>
+    <string name="radioBtn_3">Поиск по агрегату</string>
+
+</resources>
